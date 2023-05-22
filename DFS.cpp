@@ -52,7 +52,7 @@ int main() {
 	}
 
 	dfs(start_node);
-
+	// coment below if doesn't work
 	for (int i = 0; i < n; i++) {
     	if (visited[i]) {
         	cout << i << " ";
